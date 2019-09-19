@@ -28,6 +28,8 @@ h2.inverted {
 	font-family: verdana;
 	color: #3f4f62;;
 	text-align: center;
+	margin-bottom: 40px;
+	margin-top: 20px;
 }
 a {
 	color: #dd4a4a;

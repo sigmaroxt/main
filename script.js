@@ -146,7 +146,7 @@ function updateGameArea() {
     }
     for (i = 0; i < myObstacles.length; i += 1) 
 	{
-        myObstacles[i].x += -2;
+        myObstacles[i].x += -2 * (1.0 + myGameArea.frameNo / 1000);
         myObstacles[i].update();
     }
     myScore.text="SCORE: " + myGameArea.frameNo;

@@ -1,5 +1,5 @@
-# Welcome to sigmaRoxt's page
+# My website!
 
-sample text xd
+This is the website where i'll upload my projects
 
 

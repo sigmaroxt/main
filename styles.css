@@ -19,12 +19,14 @@
 	image-rendering: pixelated;
 }
 body {
+	
 	font-family: 'Baloo 2';font-size: 18px;
 }
 
 .title {
 	text-align: center;
-	color: rgb(200, 200, 100);   
+	color: rgb(200, 200, 100);  
+	line-height: normal;	
 }
 
 .title h2 {
@@ -39,15 +41,18 @@ hr
 }
 
 .contents {
-	text-align: left;
-	margin-left: 2%;
-	margin-right: 2%;
-	text-align: left;
+	border-radius: 25px;
+	width: 800px;
+	border: 15px solid rgb(200, 200, 100);
+	padding: 50px;
+	margin: auto;
+	
+	text-align: center;
 	color: rgb(200, 200, 100); 
 	line-height: normal;	
 }
 
 .contents a {
 	color: rgb(200, 200, 200); 
-	
+	text-decoration: none;
 }
